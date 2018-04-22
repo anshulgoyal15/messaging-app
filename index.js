@@ -10,7 +10,7 @@ const authRoutes=require('./routes/authRoutes')
 const messagingRoutes=require('./routes/messagingRoutes')
 
 // connecting to mongodb database
-mongoose.connect('mongodb://argoyal:1234567@ds155218.mlab.com:55218/imdbapi');
+mongoose.connect('');
 mongoose.Promise = global.Promise;
 
 
